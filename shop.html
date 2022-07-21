@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Nas Homes - Building Website</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta
+      name="description"
+      content="Nas Homes is a website for choosing Comfortable  Homes"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/btc.svg"
+    />
+
+    <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
+
+    <!-- Font CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS (Bootstrap & Icon Font) -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Plugins CSS (All Plugins Files) -->
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/fancybox.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!--== Wrapper Start ==-->
+    <div class="wrapper">
+      <!--== Start Header Wrapper ==-->
+      <header class="header-area">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-auto">
+              <div class="header-logo">
+                <a href="index.html" class="fs-3 ">
+                  <img
+                    class="logo-main p-2"
+                    src="assets/images/logo_2.png"
+                    width="103"
+                    height="20"
+                    alt="Logo"
+                    id="nas"
+                  />Nas Homes
+                </a>
+              </div>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <div class="header-navigation">
+                <ul class="main-nav">
+                  <li class="has-submenu">
+                    <a href="index.html">Home</a>
+                   
+                  </li>
+                  <li class="has-submenu position-static">
+                    <a href="shop.html">Shop</a>
+                  </li>
+                  <li class="has-submenu">
+                    <a href="login-register.html">Login/Register</a>
+                    
+                  </li>
+                  <li class="has-submenu">
+                    <a href="contact.html">Contact</a>
+                    
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="header-action">
+                <form class="header-search-box d-none d-md-block">
+                  <input
+                    class="form-control"
+                    type="text"
+                    id="search"
+                    placeholder="Search"
+                  />
+                  <button type="submit" class="btn-src">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </form>
+                <button
+                  class="header-action-cart"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasWithCartSidebar"
+                  aria-controls="offcanvasWithCartSidebar"
+                >
+                  
+ 
+                    <svg
+                      width="21"
+                      height="21"
+                      viewBox="0 0 21 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="ms-5"
+                    >
+                      <path
+                        d="M10 8H12V5H15V3H12V0H10V3H7V5H10V8ZM6 17C5.46957 17 4.96086 17.2107 4.58579 17.5858C4.21071 17.9609 4 18.4696 4 19C4 19.5304 4.21071 20.0391 4.58579 20.4142C4.96086 20.7893 5.46957 21 6 21C6.53043 21 7.03914 20.7893 7.41421 20.4142C7.78929 20.0391 8 19.5304 8 19C8 18.4696 7.78929 17.9609 7.41421 17.5858C7.03914 17.2107 6.53043 17 6 17ZM16 17C15.4696 17 14.9609 17.2107 14.5858 17.5858C14.2107 17.9609 14 18.4696 14 19C14 19.5304 14.2107 20.0391 14.5858 20.4142C14.9609 20.7893 15.4696 21 16 21C16.5304 21 17.0391 20.7893 17.4142 20.4142C17.7893 20.0391 18 19.5304 18 19C18 18.4696 17.7893 17.9609 17.4142 17.5858C17.0391 17.2107 16.5304 17 16 17ZM6.17 13.75L6.2 13.63L7.1 12H14.55C15.3 12 15.96 11.59 16.3 10.97L20.16 3.96L18.42 3H18.41L17.31 5L14.55 10H7.53L7.4 9.73L5.16 5L4.21 3L3.27 1H0V3H2L5.6 10.59L4.25 13.04C4.09 13.32 4 13.65 4 14C4 14.5304 4.21071 15.0391 4.58579 15.4142C4.96086 15.7893 5.46957 16 6 16H18V14H6.42C6.29 14 6.17 13.89 6.17 13.75Z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <button
+                  class="btn-search-menu d-md-none"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#AsideOffcanvasSearch"
+                  aria-controls="AsideOffcanvasSearch"
+                >
+                  <span class="search-icon">
+                    <svg
+                      width="22"
+                      height="22"
+                      viewBox="0 0 22 22"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12.5 11H11.71L11.43 10.73C12.41 9.59 13 8.11 13 6.5C13 2.91 10.09 0 6.5 0C2.91 0 0 2.91 0 6.5C0 10.09 2.91 13 6.5 13C8.11 13 9.59 12.41 10.73 11.43L11 11.71V12.5L16 17.49L17.49 16L12.5 11ZM6.5 11C4.01 11 2 8.99 2 6.5C2 4.01 4.01 2 6.5 2C8.99 2 11 4.01 11 6.5C11 8.99 8.99 11 6.5 11Z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <button
+                  class="btn-menu d-lg-none"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasWithBothOptions"
+                  aria-controls="offcanvasWithBothOptions"
+                >
+                  <i class="fa fa-bars"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--== End Header Wrapper ==-->
+
+      <main class="main-content">
+        <!--== Start Hero Area Wrapper ==-->
+        <section class="hero-slider-area position-relative">
+          <div class="swiper hero-slider-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide hero-slide-item">
+                <div class="container">
+                  <div class="row align-items-center position-relative">
+                    <div class="col-12 col-sm-6">
+                      <div class="hero-slide-content">
+                        <div class="hero-slide-shape-img">
+                          <img
+                            src="assets/images/slider/shape1.png"
+                            width="180"
+                            height="180"
+                            alt="Image"
+                          />
+                        </div>
+                        <h4 class="hero-slide-sub-title">HELLO THERE!</h4>
+                        <h1 class="hero-slide-title">
+                          Let’s build your new home embedded with comfort.
+                        </h1>
+                        <p class="hero-slide-desc">
+                          In Nas Homes we build homes for families ranging from duplex, Mansion, Penthouse, Apartments, Office space, Event Centre, Church, Mosque. All our work is customized to exactly your taste
+                        </p>
+                        <div class="hero-slide-meta">
+                          <a class="btn btn-border-primary" href="shop.html"
+                            >Build Now</a
+                          >
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                      <div class="hero-slide-thumb mb-5 ">
+                        <img
+                          src="assets/img/home-2.jpg"
+                          width="555"
+                          height="550"
+                          alt="Image"
+                          class="rounded-3"
+                          style="margin-bottom:100px ;"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+             
+            </div>
+           
+        </section>
+        
+
+        <!--== End Product Banner Area Wrapper ==-->
+
+        <!--== Start Product Area Wrapper ==-->
+        <section class="product-area section-space">
+          <div class="container">
+            <div class="section-title text-center">
+              <h2 class="title">AVAILABLE FOR SALE</h2>
+              <p>
+                Check out the available homes for sale in our company. 
+              </p>
+            </div>
+            <div class="row mb-n6">
+              <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/about.jpg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                 
+                  
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html"
+                        >Sky Scrapper Classical 50-floors</a
+                      >
+                    </h4>
+                    <div class="price">
+                      $500,000 <span class="price-old">$650,000</span>
+                    </div>
+                     <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/project-2.jpg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                  
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">Sky Scrapper, Stylish. <br> 50 floors </a>
+                    </h4>
+                    <div class="price">
+                      $1,000,000 <span class="price-old">$1,500,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End prPduct Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-8.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                  
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">Classic 80s Hotel</a>
+                    </h4>
+                    <div class="price">
+                      $300,000 <span class="price-old">$350,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-5.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+
+                  
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">Bachelor Condo with a portfolio</a>
+                    </h4>
+                    <div class="price">
+                      $400,000 <span class="price-old">$500,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-6.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour</a>
+                    </h4>
+                    <div class="price">
+                      $2,500 <span class="price-old">$4,300</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End prPduct Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-11.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End prPduct Item ==-->
+              </div>
+              <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-12.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End prPduct Item ==-->
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-14.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-15.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-17.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-18.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-19.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-20.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-21.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-7.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+           <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-1.jpg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+           <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-23.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+           <div class="col-sm-6 col-lg-4 mb-6">
+                <!--== Start Product Item ==-->
+                <div class="product-item product-item-border">
+                  <a class="product-thumb" href="shop-single-product.html">
+                    <img
+                      src="assets/img/home-25.jpeg"
+                      width="300"
+                      height="286"
+                      alt="Image-HasTech"
+                    />
+                  </a>
+                  
+                 
+                  <div class="product-info">
+                    <h4 class="title">
+                      <a href="shop-single-product.html">20th century Parlour with TV console</a>
+                    </h4>
+                    <div class="price">
+                      $3,300 <span class="price-old">$7,000</span>
+                    </div>
+                    <a class="btn btn-border-primary mt-3" href="#"
+                            >Buy Now</a
+                          >
+                  </div>
+                </div>
+                <!--== End product Item ==-->    
+          </div>
+        </section>
+        <!--== End Product Area Wrapper ==-->
+  </div>
+        
+        
+
+        
+
+      </main>
+
+
+
+
+
+
+      <!--== Start Footer Area Wrapper ==-->
+      <footer class="footer-area">
+        <!--== Start Footer Main ==-->
+        <div class="footer-main">
+          <div class="container">
+            <div class="row mb-n6">
+              <div class="col-sm-12 col-md-3 col-lg-3 mb-6">
+                <div class="widget-item">
+                  <div class="widget-about">
+                    <a class="widget-logo" href="index.html">
+                      <img
+                        src="assets/images/logo_2.png"
+                        alt="Logo"
+                        width="153"
+                        height="30"
+                        id="nas"
+                      />
+                    </a>
+                    <p class="desc">
+                      Your one stop for Quality Homes.
+                    </p>
+                  </div>
+                  <div class="widget-social">
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noopener"
+                      ><i class="fa-brands fa-facebook" id="nas"></i>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      rel="noopener"
+                      ><i class="fa-brands fa-linkedin" id="nas"></i
+                    ></a>
+                    <a
+                      href="https://www.twitter.com/"
+                      target="_blank"
+                      rel="noopener"
+                      ><i class="fa-brands fa-twitter" id="nas"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-12 col-md-3 col-lg-2 offset-lg-1 mb-6">
+                <div class="widget-item">
+                  <h4 class="widget-title">Support</h4>
+                  <h4
+                    class="widget-title widget-collapsed-title collapsed"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#widgetTitleId-2"
+                  >
+                    Support
+                  </h4>
+                  <div
+                    id="widgetTitleId-2"
+                    class="collapse widget-collapse-body"
+                  >
+                    <ul class="widget-nav">
+                      <li><a href="contact.html">Help</a></li>
+                      <li><a href="contact.html">Live Chat</a></li>
+                      <li>
+                        <a href="shop-single-product.html">Product Detail</a>
+                      </li>
+                      <li><a href="account.html">Tracking</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-3 col-lg-2 offset-lg-1 mb-6">
+                <div class="widget-item">
+                  <h4 class="widget-title">Products</h4>
+                  
+                  <div
+                    id="widgetTitleId-3"
+                    class="collapse widget-collapse-body"
+                  >
+                    <ul class="widget-nav">
+                      <li><a href="shop.html">Duplex</a></li>
+                      <li><a href="shop.html">Condo</a></li>
+                      <li><a href="shop.html">Hotels</a></li>
+                      <li><a href="shop.html">Estates</a></li>
+                      <li><a href="shop.html">Office Spaces</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--== End Footer Main ==-->
+
+        <!--== Start Footer Bottom ==-->
+        <div class="footer-bottom">
+          <div class="container pt-0 pb-0">
+            <p>Payment Partners</p>
+            <div class="footer-bottom-content">
+              <a href="shop.html"
+                ><img src="assets/images/shop/payment.png" alt="Image-HasTech" 
+              /></a>
+              <p class="copyright">
+                © 2021 Nas Homes. Made with <i class="fa fa-heart"></i> 
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--== End Footer Bottom ==-->
+      </footer>
+      <!--== End Footer Area Wrapper ==-->
+
+      <!--== Scroll Top Button ==-->
+      <div class="scroll-to-top">
+        <span class="fa fa-angle-double-up"></span>
+      </div>
+
+      
+
+    <!-- JS Vendor, Plugins & Activation Script Files -->
+
+    <!-- Vendors JS -->
+    <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugins JS -->
+    <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/fancybox.min.js"></script>
+    <script src="assets/js/plugins/jquery.nice-select.min.js"></script>
+
+    <!-- Custom Main JS -->
+    <script src="assets/js/main.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
